@@ -1,0 +1,31 @@
+<html>
+	<link rel="stylesheet" href="mystyle.css">
+	<body>
+		<script src="jquery-1.11.3.js"></script>
+		<script src="http://code.highcharts.com/highcharts.js"></script>
+		<script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+		<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+	<form class="form"> 
+	   
+		<p class="packsize"> 
+			<input type="text" name="packsize" id="packsize" /> 
+			<label for="name">packet size (bytes)</label> 
+		</p> 
+	   
+		<p class="interval"> 
+			<input type="text" name="interval" id="interval" /> 
+			<label for="email">interval (milliseconds)</label> 
+		</p> 
+	   
+		<p class="submit"> 
+			<input type="button" value="Start test" id="try"/> 
+			<input type="button" value="Stop" id="stop"/>
+		</p> 
+	   
+	</form>
+	<script src="sndrcvtst.js"></script>
+	<script src="myscript.js"></script>
+	
+</body>
+</html>
