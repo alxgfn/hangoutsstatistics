@@ -104,8 +104,10 @@ function onChartLoad () {
     var rand = Math.round(Math.random() *1000) + 500;
     setTimeout(function() {
 				myData.push(Math.random());
-//				console.log(myData[myData.length - 1]);
+				console.log("It works");
 				loop();  
     }, rand);
-}());	
+}());
+
+console.log("I am in myscript.js");
 
